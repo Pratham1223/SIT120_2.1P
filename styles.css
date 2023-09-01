@@ -1,0 +1,46 @@
+
+.wrapper {
+    width: 100%;
+
+}
+.small{
+    display: none;
+
+}
+.mobile{
+    display:block;
+        width:100%;
+        padding-bottom: 20px;   
+}
+
+.info{
+    width: 100%;
+}
+
+.info h2{
+    font-family: inherit;
+    color: black;
+    font-size: 40px;
+}
+
+.info p{
+    font-family: inherit;
+    color: black;
+    font-size: 20px;
+}
+
+.image{
+    width: 100%;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .small{
+        display:block;
+        width:100%;
+        padding-bottom: 20px;
+    }
+.mobile{
+    display: none;
+}
+    }
